@@ -2,21 +2,20 @@
 
 **Simple rake tasks for version management.**
 
-[![Gem Version](https://badge.fury.io/rb/rake-version.svg)](http://badge.fury.io/rb/rake-version)
-[![Dependency Status](https://gemnasium.com/AlphaHydrae/rake-version.svg)](https://gemnasium.com/AlphaHydrae/rake-version)
-[![Build Status](https://secure.travis-ci.org/AlphaHydrae/rake-version.svg?branch=master)](http://travis-ci.org/AlphaHydrae/rake-version)
-[![Coverage Status](https://coveralls.io/repos/AlphaHydrae/rake-version/badge.svg?branch=master)](https://coveralls.io/r/AlphaHydrae/rake-version?branch=master)
+[![Gem Version](https://badge.fury.io/rb/rake-version2.svg)](http://badge.fury.io/rb/rake-version2)
 
 **rake-version** helps you manage your `VERSION` file according to the rules of [semantic versioning](http://semver.org).
 It does nothing more.
 It does not create tags; it does not commit; it does not push; it does not release.
+
+Compatible with Ruby 3.2+. Use [`rake-version` v1](https://github.com/AlphaHydrae/rake-version) for older Ruby versions.
 
 ## Installation
 
 Add to your Gemfile and `bundle install`:
 
 ```rb
-gem "rake-version", "~> 1.0"
+gem "rake-version2", "~> 2.0"
 ```
 
 Add the tasks to your Rakefile:

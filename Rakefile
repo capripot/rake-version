@@ -1,4 +1,4 @@
-# encoding: utf-8
+# frozen_string_literal: true
 
 require 'rubygems'
 require 'bundler'
@@ -14,13 +14,13 @@ require 'rake'
 require 'jeweler'
 Jeweler::Tasks.new do |gem|
   # gem is a Gem::Specification... see http://docs.rubygems.org/read/chapter/20 for more options
-  gem.name = "rake-version"
-  gem.homepage = "https://github.com/AlphaHydrae/rake-version"
+  gem.name = "rake-version2"
+  gem.homepage = "https://github.com/capripot/rake-version2"
   gem.license = "MIT"
   gem.summary = %Q{Simple rake tasks for version management.}
   gem.description = %Q{Rake tasks to manage your VERSION file. No repository management (tags, committing, pushing), no release management.}
-  gem.email = "hydrae.alpha@gmail.com"
-  gem.authors = ["AlphaHydrae"]
+  gem.email = "capripot@gmail.com"
+  gem.authors = ["AlphaHydrae", "capripot"]
   gem.files = %x[git ls-files -- lib].split("\n") + %w(Gemfile LICENSE.txt README.md VERSION)
   # dependencies defined in Gemfile
 end
